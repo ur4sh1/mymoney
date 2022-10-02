@@ -10,8 +10,10 @@ Projeto Ignite React
 
 ## :wrench: Tecnologias utilizadas
 * TypeScript;
+* React-modal;
 * Styled components;
 * Mirage API;
+* Axios;
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
