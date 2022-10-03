@@ -12,6 +12,7 @@ Projeto Ignite React
 * TypeScript;
 * React-modal;
 * Styled components;
+* Polished;
 * Mirage API;
 * Axios;
 
