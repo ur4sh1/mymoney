@@ -1,5 +1,3 @@
-<img align="center" title="Printscreen" src="https://github.com/ur4sh1/HUB-de-JOGOS---NLW-Rocketseat/blob/main/public/printscreenMobile.png" />
-<hr>
 <h1 align="center">:file_cabinet: Sistema de gerenciamento financeiro</h1>
 
 ## :memo: Descrição
