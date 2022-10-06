@@ -1,7 +1,7 @@
-import { FormEvent, useState, useContext} from 'react';
 import Modal from 'react-modal';
+import { FormEvent, useState} from 'react';
 import { ContainerForm, TransactionTypeContainer, RadioBox } from './styles';
-import { TransactionsContext } from '../../TransactionContext';
+import { useTransactions } from '../../hooks/useTransactions';
 import closeImg from '../../assets/close.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import incomeImg from '../../assets/income.svg';
@@ -13,7 +13,7 @@ interface NewTransactionModalProps {
 
 export function NewTransactionModal({isOpen, onRequestClose}:NewTransactionModalProps) {
 
-  const {createTransactions} = useContext(TransactionsContext);
+  const {createTransactions} = useTransactions();
 
   const [title, setTitle] = useState('');
   const [amount, setAmount] = useState(0);
